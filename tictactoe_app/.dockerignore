@@ -1,0 +1,17 @@
+#ignoramos las dependencias de node_modules - ya q se instalan dentro del contenedor con npm install definido en el DOCKERFILE
+node_modules
+
+# Ignorar archivos de control de versiones
+.git
+.gitignore
+
+# Ignorar archivos del editor/IDE
+.vscode
+.DS_Store
+
+
+#los ignoramos ya que solamente ocupan espacio
+# Ignorar logs y archivos temporales // ARCHIVOS DE CONFIG - NO NOS SON UTILES
+npm-debug.log
+yarn-debug.log
+yarn-error.log
